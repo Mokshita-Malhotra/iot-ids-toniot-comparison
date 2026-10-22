@@ -1,0 +1,13 @@
+Task,Model A,Model B,"A right, B wrong","B right, A wrong",p-value
+binary,Decision Tree,Random Forest,11,14,0.69
+binary,Decision Tree,XGBoost,44,20,0.0037
+binary,Decision Tree,MLP (128-64),169,27,0.0
+binary,Random Forest,XGBoost,39,12,0.0002
+binary,Random Forest,MLP (128-64),163,18,0.0
+binary,XGBoost,MLP (128-64),137,19,0.0
+multiclass,Decision Tree,Random Forest,79,166,0.0
+multiclass,Decision Tree,XGBoost,84,235,0.0
+multiclass,Decision Tree,MLP (128-64),2088,174,0.0
+multiclass,Random Forest,XGBoost,61,125,0.0
+multiclass,Random Forest,MLP (128-64),2088,87,0.0
+multiclass,XGBoost,MLP (128-64),2109,44,0.0

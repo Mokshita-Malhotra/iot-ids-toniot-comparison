@@ -1,0 +1,7 @@
+Model,Accuracy,Precision,Recall,F1,MCC,CV F1 mean,CV F1 std,Train time (s),Inference (ms/sample),Best params,ROC-AUC
+Logistic Regression,0.9866,0.9948,0.988,0.9914,0.9614,0.9865,0.0011,7.8866,0.0025,{'clf__C': 10},0.9952
+KNN,0.998,0.9984,0.9991,0.9987,0.9942,0.9961,0.0006,0.4091,1.669,{'clf__n_neighbors': 3},0.9987
+Decision Tree,0.9984,0.9989,0.999,0.999,0.9952,0.996,0.0006,1.4385,0.0015,"{'clf__min_samples_leaf': 1, 'clf__max_depth': None}",0.9981
+Random Forest,0.9983,0.9987,0.9992,0.9989,0.9951,0.9969,0.0006,11.4893,0.0089,"{'clf__n_estimators': 100, 'clf__max_depth': None}",1.0
+Gradient Boosting,0.9979,0.9986,0.9987,0.9987,0.9939,0.9969,0.0006,60.1078,0.005,"{'clf__n_estimators': 100, 'clf__max_depth': 5, 'clf__learning_rate': 0.2}",0.9998
+XGBoost,0.9975,0.9987,0.9981,0.9984,0.9928,0.9971,0.0005,4.8351,0.0037,"{'clf__n_estimators': 100, 'clf__max_depth': 6, 'clf__learning_rate': 0.1}",0.9999

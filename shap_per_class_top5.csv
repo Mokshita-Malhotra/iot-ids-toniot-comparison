@@ -1,0 +1,11 @@
+class,top1,top2,top3,top4,top5
+backdoor,conn_state_REJ (3.137),src_ip_bytes (2.292),dst_port (1.602),duration (1.077),src_bytes (0.549)
+ddos,dst_port (0.892),dst_ip_bytes (0.709),src_ip_bytes (0.669),duration (0.587),src_bytes (0.502)
+dos,dst_port (1.757),conn_state_REJ (1.377),src_pkts (1.282),src_ip_bytes (0.856),src_bytes (0.835)
+injection,dst_port (1.269),src_bytes (1.249),dst_bytes (0.728),src_ip_bytes (0.560),src_pkts (0.505)
+mitm,dst_ip_bytes (0.766),duration (0.623),src_pkts (0.612),src_ip_bytes (0.515),src_bytes (0.393)
+normal,proto_tcp (2.129),dst_port (0.975),src_pkts (0.802),src_ip_bytes (0.608),duration (0.470)
+password,dst_port (1.357),src_ip_bytes (1.149),src_bytes (1.093),dst_pkts (0.720),conn_state_REJ (0.696)
+ransomware,duration (3.816),dst_port (3.779),src_ip_bytes (1.067),conn_state_OTH (0.772),dst_ip_bytes (0.378)
+scanning,src_ip_bytes (3.149),duration (0.981),dst_ip_bytes (0.676),conn_state_SF (0.464),dst_pkts (0.446)
+xss,dst_port (2.073),src_bytes (0.763),duration (0.615),dst_bytes (0.489),conn_state_REJ (0.336)

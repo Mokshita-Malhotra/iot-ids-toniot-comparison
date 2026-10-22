@@ -1,0 +1,4 @@
+Variant,Accuracy,Macro F1,MCC,mitm precision,mitm recall,mitm F1
+"XGBoost, no weights",0.9878,0.9672,0.986,0.7363,0.8272,0.7791
+"XGBoost, sqrt-balanced weights",0.9875,0.9634,0.9858,0.6229,0.9074,0.7387
+"XGBoost, balanced weights",0.9873,0.9605,0.9856,0.572,0.9321,0.7089

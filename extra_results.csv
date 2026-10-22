@@ -1,0 +1,9 @@
+Task,Model,Accuracy,F1,MCC,Train time (s),Inference (ms/flow),Macro F1
+binary,Decision Tree,0.9983,0.9989,0.9951,1.2235,0.0009,
+binary,Random Forest,0.9984,0.999,0.9954,11.2098,0.0091,
+binary,XGBoost,0.9975,0.9984,0.9928,4.3916,0.003,
+binary,MLP (128-64),0.9936,0.9959,0.9813,32.2524,0.0093,
+multiclass,Decision Tree,0.9827,,0.9803,1.0145,0.0007,0.9527
+multiclass,Random Forest,0.9856,,0.9836,13.4334,0.0122,0.9592
+multiclass,XGBoost,0.9878,,0.986,105.9964,0.047,0.9672
+multiclass,MLP (128-64),0.9189,,0.908,156.6682,0.0052,0.869

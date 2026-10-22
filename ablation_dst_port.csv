@@ -1,0 +1,9 @@
+Task,Model,dst_port,Accuracy,F1,MCC,Macro F1
+binary,Random Forest,kept,0.9984,0.999,0.9954,
+binary,Random Forest,removed,0.9979,0.9986,0.9938,
+binary,XGBoost,kept,0.9975,0.9984,0.9928,
+binary,XGBoost,removed,0.9969,0.998,0.991,
+multiclass,Random Forest,kept,0.9856,,0.9836,0.9592
+multiclass,Random Forest,removed,0.9776,,0.9744,0.9494
+multiclass,XGBoost,kept,0.9878,,0.986,0.9672
+multiclass,XGBoost,removed,0.9792,,0.9763,0.956

@@ -1,0 +1,25 @@
+Task,Model,Metric,Estimate,CI low,CI high
+binary,Decision Tree,Accuracy,0.9983,0.9979,0.9988
+binary,Decision Tree,F1,0.9989,0.9986,0.9992
+binary,Decision Tree,MCC,0.9951,0.9938,0.9964
+binary,Random Forest,Accuracy,0.9984,0.998,0.9988
+binary,Random Forest,F1,0.999,0.9987,0.9993
+binary,Random Forest,MCC,0.9954,0.9942,0.9966
+binary,XGBoost,Accuracy,0.9975,0.997,0.998
+binary,XGBoost,F1,0.9984,0.9981,0.9987
+binary,XGBoost,MCC,0.9928,0.9912,0.9943
+binary,MLP (128-64),Accuracy,0.9936,0.9927,0.9945
+binary,MLP (128-64),F1,0.9959,0.9953,0.9965
+binary,MLP (128-64),MCC,0.9813,0.9787,0.9839
+multiclass,Decision Tree,Accuracy,0.9827,0.9812,0.9842
+multiclass,Decision Tree,Macro F1,0.9527,0.9466,0.9584
+multiclass,Decision Tree,MCC,0.9803,0.9786,0.982
+multiclass,Random Forest,Accuracy,0.9856,0.9843,0.987
+multiclass,Random Forest,Macro F1,0.9592,0.9534,0.9646
+multiclass,Random Forest,MCC,0.9836,0.9821,0.9851
+multiclass,XGBoost,Accuracy,0.9878,0.9866,0.989
+multiclass,XGBoost,Macro F1,0.9672,0.9619,0.9723
+multiclass,XGBoost,MCC,0.986,0.9847,0.9874
+multiclass,MLP (128-64),Accuracy,0.9189,0.9154,0.9216
+multiclass,MLP (128-64),Macro F1,0.869,0.8601,0.876
+multiclass,MLP (128-64),MCC,0.908,0.9041,0.911
